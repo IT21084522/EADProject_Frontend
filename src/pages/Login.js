@@ -35,7 +35,7 @@ function LoginPage() {
     try {
       // Make an API request to your backend for login
       const response = await axios.post(
-        "http://127.0.0.1:15240/api/User/login",
+        "http://localhost:5069/api/User/login",
         {
           email: email,
           password: password,
